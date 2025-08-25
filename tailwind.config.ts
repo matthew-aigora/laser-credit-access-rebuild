@@ -15,6 +15,10 @@ const config: Config = {
         'brand-orange': '#f37359',
         'brand-blue-ultralight': '#bec4dc',
       },
+      fontFamily: {
+        'sans': ['var(--font-inter)'],
+        'heading': ['var(--font-montserrat)'],
+      },
     },
   },
   plugins: [],

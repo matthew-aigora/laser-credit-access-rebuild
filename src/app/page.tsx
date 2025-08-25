@@ -74,7 +74,7 @@ export default function Home() {
       {/* Our Solutions Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+          <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our Solutions
             </h2>
@@ -82,37 +82,83 @@ export default function Home() {
               A complete suite of tools to handle all your credit and compliance needs, built natively for the Salesforce ecosystem.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card title="LASER Credit Access">
-              <p>
+
+          {/* Solution 1: LASER Credit Access - Image Left, Text Right */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
+            <div className="bg-gray-300 rounded-lg aspect-video flex items-center justify-center">
+              <span className="text-gray-600 text-lg">LASER Credit Access Image</span>
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">LASER Credit Access</h3>
+              <p className="text-gray-600 text-lg leading-relaxed">
                 The flagship application for pulling consumer credit reports and running compliance checks directly within Salesforce.
               </p>
-            </Card>
-            <Card title="LASER Business Credit">
-              <p>
+            </div>
+          </div>
+
+          {/* Solution 2: LASER Business Credit - Text Left, Image Right */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">LASER Business Credit</h3>
+              <p className="text-gray-600 text-lg leading-relaxed">
                 Access comprehensive business credit reports to make informed B2B lending decisions with confidence and full compliance.
               </p>
-            </Card>
-            <Card title="LASER Financial Account Access">
-              <p>
+            </div>
+            <div className="bg-gray-300 rounded-lg aspect-video flex items-center justify-center">
+              <span className="text-gray-600 text-lg">LASER Business Credit Image</span>
+            </div>
+          </div>
+
+          {/* Solution 3: LASER Financial Account Access - Image Left, Text Right */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
+            <div className="bg-gray-300 rounded-lg aspect-video flex items-center justify-center">
+              <span className="text-gray-600 text-lg">Financial Account Access Image</span>
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">LASER Financial Account Access</h3>
+              <p className="text-gray-600 text-lg leading-relaxed">
                 Go beyond the credit report by securely accessing open banking and income data through providers like Plaid.
               </p>
-            </Card>
-            <Card title="LASER Credit Union">
-              <p>
+            </div>
+          </div>
+
+          {/* Solution 4: LASER Credit Union - Text Left, Image Right */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">LASER Credit Union</h3>
+              <p className="text-gray-600 text-lg leading-relaxed">
                 Enhance your credit decisioning with powerful, data-driven attributes. This application is a key component for automating underwriting and risk.
               </p>
-            </Card>
-            <Card title="LASER Personal Cash Flow">
-              <p>
+            </div>
+            <div className="bg-gray-300 rounded-lg aspect-video flex items-center justify-center">
+              <span className="text-gray-600 text-lg">LASER Credit Union Image</span>
+            </div>
+          </div>
+
+          {/* Solution 5: LASER Personal Cash Flow - Image Left, Text Right */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
+            <div className="bg-gray-300 rounded-lg aspect-video flex items-center justify-center">
+              <span className="text-gray-600 text-lg">Personal Cash Flow Image</span>
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">LASER Personal Cash Flow</h3>
+              <p className="text-gray-600 text-lg leading-relaxed">
                 Automate complex cash flow analysis for superior decisioning. This application combines the borrower's credit report debt with their bank.
               </p>
-            </Card>
-            <Card title="Custom Solutions">
-              <p>
+            </div>
+          </div>
+
+          {/* Solution 6: Custom Solutions - Text Left, Image Right */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Custom Solutions</h3>
+              <p className="text-gray-600 text-lg leading-relaxed">
                 Work with our team to build a custom credit reporting solution tailored to your unique business requirements.
               </p>
-            </Card>
+            </div>
+            <div className="bg-gray-300 rounded-lg aspect-video flex items-center justify-center">
+              <span className="text-gray-600 text-lg">Custom Solutions Image</span>
+            </div>
           </div>
         </div>
       </section>
@@ -127,7 +173,7 @@ export default function Home() {
             Schedule a free, no-obligation demo with our team today.
           </p>
           <Button variant="secondary" className="text-lg px-8 py-4">
-            Book a Discovery Meeting
+            Schedule a Compliance Discussion
           </Button>
         </div>
       </section>

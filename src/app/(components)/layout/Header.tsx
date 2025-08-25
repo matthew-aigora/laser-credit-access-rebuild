@@ -38,7 +38,7 @@ const Header = () => {
           {/* Desktop CTA Button */}
           <div className="hidden md:block">
             <Button variant="primary">
-              Request a Demo
+              Schedule a Discovery Call
             </Button>
           </div>
 
@@ -76,7 +76,7 @@ const Header = () => {
               ))}
               <div className="pt-2">
                 <Button variant="primary" className="w-full">
-                  Request a Demo
+                  Schedule a Discovery Call
                 </Button>
               </div>
             </div>
