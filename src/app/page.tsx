@@ -1,4 +1,5 @@
 import Button from "./(components)/ui/Button";
+import Card from "./(components)/ui/Card";
 
 export default function Home() {
   return (
@@ -19,6 +20,115 @@ export default function Home() {
               </Button>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Partners Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-8">
+              Integrated with all three major credit bureaus
+            </h2>
+            <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+              <div className="text-brand-gray text-3xl md:text-4xl font-semibold opacity-70 hover:opacity-100 transition-opacity">
+                Experian
+              </div>
+              <div className="text-brand-gray text-3xl md:text-4xl font-semibold opacity-70 hover:opacity-100 transition-opacity">
+                TransUnion
+              </div>
+              <div className="text-brand-gray text-3xl md:text-4xl font-semibold opacity-70 hover:opacity-100 transition-opacity">
+                Equifax
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Unified Platform Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
+            A Unified Platform for the Complete Credit Lifecycle
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <Card title="ACCESS">
+              <p>
+                A Complete Financial Picture, Instantly. Securely bring real-time credit, income, and banking data directly into your Salesforce records. Eliminate manual data entry and get the fuel you need to make informed decisions in seconds.
+              </p>
+            </Card>
+            <Card title="DECIDE">
+              <p>
+                Decisions, Accelerated and Assured. Leverage our powerful rules engine to automate your underwriting criteria. Get instant decisioning assistance, ensure consistency across your team, and increase your lending velocity.
+              </p>
+            </Card>
+            <Card title="COMPLY">
+              <p>
+                Compliance, Built-In, Not Bolted-On. Operate with total confidence. From upfront AML/KYC verification to continuous, audit-ready tracking of ECOA and FTC Safeguards, our platform turns your biggest compliance risks into an automated, background process.
+              </p>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Solutions Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Our Solutions
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              A complete suite of tools to handle all your credit and compliance needs, built natively for the Salesforce ecosystem.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <Card title="LASER Credit Access">
+              <p>
+                The flagship application for pulling consumer credit reports and running compliance checks directly within Salesforce.
+              </p>
+            </Card>
+            <Card title="LASER Business Credit">
+              <p>
+                Access comprehensive business credit reports to make informed B2B lending decisions with confidence and full compliance.
+              </p>
+            </Card>
+            <Card title="LASER Financial Account Access">
+              <p>
+                Go beyond the credit report by securely accessing open banking and income data through providers like Plaid.
+              </p>
+            </Card>
+            <Card title="LASER Credit Union">
+              <p>
+                Enhance your credit decisioning with powerful, data-driven attributes. This application is a key component for automating underwriting and risk.
+              </p>
+            </Card>
+            <Card title="LASER Personal Cash Flow">
+              <p>
+                Automate complex cash flow analysis for superior decisioning. This application combines the borrower's credit report debt with their bank.
+              </p>
+            </Card>
+            <Card title="Custom Solutions">
+              <p>
+                Work with our team to build a custom credit reporting solution tailored to your unique business requirements.
+              </p>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA Section */}
+      <section className="py-20 bg-gradient-to-r from-brand-blue to-brand-orange">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            Ready to streamline your credit lifecycle?
+          </h2>
+          <p className="text-lg md:text-xl text-white mb-8 opacity-95">
+            Schedule a free, no-obligation demo with our team today.
+          </p>
+          <Button variant="secondary" className="text-lg px-8 py-4">
+            Book a Discovery Meeting
+          </Button>
         </div>
       </section>
     </div>
