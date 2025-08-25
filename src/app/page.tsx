@@ -8,7 +8,7 @@ export default function Home() {
       <section className="bg-brand-blue text-white py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold mb-6 leading-tight">
               The Credit Lifecycle in Salesforce. Access, Decide, Comply—All in Salesforce.
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl mb-8 text-brand-blue-ultralight">
@@ -27,7 +27,7 @@ export default function Home() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-8">
+            <h2 className="text-2xl md:text-3xl font-heading font-semibold text-brand-blue mb-8">
               Integrated with all three major credit bureaus
             </h2>
             <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
@@ -48,7 +48,7 @@ export default function Home() {
       {/* Unified Platform Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-center text-brand-blue mb-12">
             A Unified Platform for the Complete Credit Lifecycle
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -75,7 +75,7 @@ export default function Home() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-brand-blue mb-4">
               Our Solutions
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -89,7 +89,7 @@ export default function Home() {
               <span className="text-gray-600 text-lg">LASER Credit Access Image</span>
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">LASER Credit Access</h3>
+              <h3 className="text-2xl font-heading font-bold text-brand-blue mb-4">LASER Credit Access</h3>
               <p className="text-gray-600 text-lg leading-relaxed">
                 The flagship application for pulling consumer credit reports and running compliance checks directly within Salesforce.
               </p>
@@ -99,7 +99,7 @@ export default function Home() {
           {/* Solution 2: LASER Business Credit - Text Left, Image Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">LASER Business Credit</h3>
+              <h3 className="text-2xl font-heading font-bold text-brand-blue mb-4">LASER Business Credit</h3>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Access comprehensive business credit reports to make informed B2B lending decisions with confidence and full compliance.
               </p>
@@ -115,7 +115,7 @@ export default function Home() {
               <span className="text-gray-600 text-lg">Financial Account Access Image</span>
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">LASER Financial Account Access</h3>
+              <h3 className="text-2xl font-heading font-bold text-brand-blue mb-4">LASER Financial Account Access</h3>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Go beyond the credit report by securely accessing open banking and income data through providers like Plaid.
               </p>
@@ -125,7 +125,7 @@ export default function Home() {
           {/* Solution 4: LASER Credit Union - Text Left, Image Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">LASER Credit Union</h3>
+              <h3 className="text-2xl font-heading font-bold text-brand-blue mb-4">LASER Credit Union</h3>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Enhance your credit decisioning with powerful, data-driven attributes. This application is a key component for automating underwriting and risk.
               </p>
@@ -141,7 +141,7 @@ export default function Home() {
               <span className="text-gray-600 text-lg">Personal Cash Flow Image</span>
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">LASER Personal Cash Flow</h3>
+              <h3 className="text-2xl font-heading font-bold text-brand-blue mb-4">LASER Personal Cash Flow</h3>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Automate complex cash flow analysis for superior decisioning. This application combines the borrower's credit report debt with their bank.
               </p>
@@ -151,7 +151,7 @@ export default function Home() {
           {/* Solution 6: Custom Solutions - Text Left, Image Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Custom Solutions</h3>
+              <h3 className="text-2xl font-heading font-bold text-brand-blue mb-4">Custom Solutions</h3>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Work with our team to build a custom credit reporting solution tailored to your unique business requirements.
               </p>
@@ -166,7 +166,7 @@ export default function Home() {
       {/* Final CTA Section */}
       <section className="py-20 bg-gradient-to-r from-brand-blue to-brand-orange">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
             Ready to streamline your credit lifecycle?
           </h2>
           <p className="text-lg md:text-xl text-white mb-8 opacity-95">

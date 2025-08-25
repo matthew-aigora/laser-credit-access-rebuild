@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Company Info Column */}
           <div className="lg:col-span-1">
-            <h3 className="text-2xl font-bold mb-4">LASER</h3>
+            <h3 className="text-2xl font-heading font-bold mb-4">LASER</h3>
             <p className="text-brand-blue-ultralight text-sm leading-relaxed">
               The #1 Salesforce-native app for instant, accurate, and fully integrated credit and compliance reporting.
             </p>
@@ -43,7 +43,7 @@ const Footer = () => {
           {/* Footer Links Columns */}
           {Object.entries(footerLinks).map(([category, links]) => (
             <div key={category}>
-              <h4 className="text-lg font-semibold mb-4">{category}</h4>
+              <h4 className="text-lg font-heading font-semibold mb-4">{category}</h4>
               <ul className="space-y-2">
                 {links.map((link) => (
                   <li key={link.name}>
